@@ -1,0 +1,254 @@
+.bg-color-nav{
+    background-color:rgb(3, 37, 65);
+}
+.nav-item a{
+    color: white;
+    font-weight: 600;
+
+}
+/* body{
+    background-color:rgb(16, 26, 34) ;
+
+} */
+
+.icon{
+  font-size: 20px;
+}
+
+.new-container{
+    width: 95%;
+    margin: 8rem auto 2rem ;
+
+}
+
+.box{
+    /* box-shadow:  0px 0px 5px 5px rgb(3, 37, 65); */
+    border-radius: 20px; 
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+/*circle bar*/
+.progress-circle {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: conic-gradient(
+      from 0deg at 50% 50%,
+      #ff416c 0deg,
+      #ff4b2b 50deg,
+      #ff4b2b 180deg,
+      #ff416c 360deg
+    );
+    top: 58%;
+    left: 7%;
+  }
+
+  .progress-circle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .progress-circle .progress-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 2;
+    color: #333;
+  }
+
+
+  .ellips{
+    position: absolute;
+    top: 1%;
+    right: 10%;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(1, 180, 229);
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ellips:hover{
+    background-color: gray;
+  }
+.card:hover{
+cursor: pointer;
+}
+/*sort*/
+
+.sort{
+    width: 95%;
+    padding: 1rem;
+    box-shadow: 0px 0px 2px 1px lightgray;
+    border-radius: 15px;
+}
+
+
+.item-footer{
+  text-align: center;
+
+}
+
+.item-footer ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.item-footer ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+@media only screen and (max-width:700px) {
+  .new-container ,section ,[class*="col-"]{
+    width:100%;
+   
+
+  };
+
+  
+
+}
+.aside-div{
+  position: fixed;
+  height: 100%;
+
+}
+@media only screen and (max-width:1000px) {
+.aside-div{
+
+  position: static;
+
+  }
+  
+}
+
+.togle-nav-bar{
+  display: flex !important;
+  position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 100%;
+    background-color:rgb(3, 37, 65);
+
+}
+.togle{
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width:992px) {
+  .togle{
+    display: flex;
+
+  }
+  .nav-right , .left-side-nav{
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width:992px) {
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+ 
+}
+
+
+.bell-item i::before{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff416c;
+
+
+
+}
+.icon{
+  /* font-size: 20px; */
+}
+
+.bell{
+  position: relative;
+}
+
+.bell::after{
+  content: '5';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color:red;
+  border-radius: 50%;
+  top: -2px;
+  right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+/* .box ,#btn{
+ 
+  box-shadow: 0px 0px 5px 5px lightgray;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+  0%   { box-shadow: 0px 0px 5px 5px rgb(132, 32, 32);}
+  25%  { box-shadow: 0px 0px 5px 5px rgb(203, 223, 48);}
+  50%  { box-shadow: 0px 0px 5px 5px rgba(20, 202, 226, 0.223);}
+  100% { box-shadow: 0px 0px 5px 5px rgb(228, 48, 168);}
+} */
+
+
+#btn{
+  background-color: rgb(3, 37, 65);
+  color: white;
+  border: none;
+  font-weight: 800;
+border-radius: 15px;
+position: fixed;
+bottom:5rem;
+right: 1.5rem;
+width:50px;
+display: none;
+}
+

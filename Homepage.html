@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    
+    
+</head>
+<body>
+   <!--///////////////// Navbar \\\\\\\\\\\\\\\\\\\\\ -->
+<nav class="navbar navbar-expand-lg bg-color-nav fixed-top">
+  <div class="container-fluid mx-5">
+    <!-- Logo -->
+    <a class="navbar-brand" href="Homepage.html">    <img src="Images/Logofinal.png" width="150" height="40" >    </a>
+    
+    <!-- Toggle button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-white"></i></span>
+    </button>
+    
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-center" href="Movie.html" aria-current="page">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center" href="Show.html">TV Show</a>
+        </li>
+      </ul>
+
+      <!-- Right-side icons and search bar -->
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item">
+            <a id="log" onclick="logout()"  class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+               
+
+<!-- ///////////////// Landing banner \\\\\\\\\\\\\\ -->
+<div  id="ban1" class="banner" style="padding-top: 150px;">
+        <div class="container">
+          <h1 class="banner-title">Welcome</h1>
+          <p class="banner-subtitle">Millions of movies, TV shows and people to discover. Explore now.</p>
+          <form id="searchForm" class="search-bar">
+            <input id="search-input" type="text" class="form-control form-control-lg" placeholder="Search for a movie, TV show, person...">
+            <button id="sub1" type="submit" >Search</button>
+            <div id="results"></div>
+        </form>
+        </div>
+</div>
+
+ 
+<!-- //////////////// Cards \\\\\\\\\\\\\\\\ -->
+     <!-- Movies -->
+    <div id="ban2" class="banner"> 
+        <div class="container-fluid padding">
+            <br>
+            <h5 class="banner-title" style="font-size: 35px;">  Discover Movies  </h5>
+            <br>
+            <div id="myCarousel" class="carousel slide container " data-bs-ride="carousel">
+                <div id="cars" class="carousel-inner w-100">
+                  
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+        </div>
+    </div>
+
+    <hr>
+    <!-- Tv -->
+    <div id="ban2" class="banner"> 
+        <div class="container-fluid padding">
+            <br>
+            <h5 class="banner-title " style="font-size: 35px;">  Trending  </h5>
+            <br>
+            <div id="myCarousel2" class="carousel slide container " data-bs-ride="carousel">
+                <div id="cars2" class="carousel-inner w-100">
+                 
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        
+        </div>
+    </div>
+    
+
+<!-- Footer -->
+ <footer class="bg-dark text-white">
+  <div class="container p-5">
+    <div class="row ">
+      <div class="col-3 item-footer mb-3 ">
+       <div>
+        <img src="Images/row (1).svg " width="120px" height="120px">
+       </div>
+       <div id="welcome" class="btn btn-info w-75 mt-4"></div>
+      </div>
+      <div class="col-2 item-footer">
+        <h3>THE BASICS</h3>
+        <ul>
+          <li><a href="#">About TMDB</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Support Forums</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">System Status</a></li>
+        </ul>
+      </div>
+      <div class="col-3 item-footer">
+        <h3>GET INVOLVED</h3>
+        <ul>
+          <li><a href="#">Contribution Bible</a></li>
+          <li><a href="#">Add New Movie</a></li>
+          <li><a href="#">Add New TV Show</a></li>
+        </ul>
+      </div>
+      <div class="col-2 item-footer">
+        <h3>COMMUNITY</h3>
+        <ul>
+          <li><a href="#">Guidelines</a></li>
+          <li><a href="#">Discussions</a></li>
+          <li><a href="#">Leaderboard</a></li>
+        </ul>
+      </div>
+      <div class="col-2 item-footer">
+        <h3>LEGAL</h3>
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">API Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">DMCA Policy</a></li>
+        </ul>
+      </div>    
+
+    </div>
+
+
+
+  </div>
+ </footer>
+
+
+   
+
+
+      
+
+
+
+    <script src="https://kit.fontawesome.com/8162b71250.js" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.JS"></script> 
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js">  </script>
+    <!-- <script src="js/auth.js"></script>   -->
+    <script src="js/Home.js"></script>
+   
+    
+
+</body>
+</html>

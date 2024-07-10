@@ -1,0 +1,37 @@
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.deps.json
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.dll
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.pdb
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.csproj.AssemblyReference.cache
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.AssemblyInfoInputs.cache
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.AssemblyInfo.cs
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.csproj.CoreCompileInputs.cache
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.dll
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\refint\project_DAL.dll
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.pdb
+F:\Projects\ITI project\js\final project\API project\project\project_DAL\obj\Debug\net6.0\ref\project_DAL.dll
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.dll
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\refint\project_DAL.dll
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.pdb
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.deps.json
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.dll
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.pdb
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.csproj.AssemblyReference.cache
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.AssemblyInfoInputs.cache
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.AssemblyInfo.cs
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.csproj.CoreCompileInputs.cache
+C:\Users\infotech\Downloads\final project\API project\project\project_DAL\obj\Debug\net6.0\ref\project_DAL.dll
+D:\project\final\final project\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.deps.json
+D:\project\final\final project\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.dll
+D:\project\final\final project\final project\API project\project\project_DAL\bin\Debug\net6.0\project_DAL.pdb
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.csproj.AssemblyReference.cache
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.AssemblyInfoInputs.cache
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.AssemblyInfo.cs
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.csproj.CoreCompileInputs.cache
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.sourcelink.json
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.dll
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\refint\project_DAL.dll
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\project_DAL.pdb
+D:\project\final\final project\final project\API project\project\project_DAL\obj\Debug\net6.0\ref\project_DAL.dll
